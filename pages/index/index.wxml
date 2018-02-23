@@ -1,0 +1,18 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" circular="true"  duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="t-container">
+    <view class="flex-box">
+      <view wx:for="{{iconInfo}}" style='text-align:center'>
+       <image   class="img-icon"  src="{{item.url}}"></image> 
+        <text style='font-size:12px'>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
