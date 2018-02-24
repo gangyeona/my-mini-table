@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "wx6b310c2b26edbb66",
-	"projectname": "%2Fhome%2Fupsmart%2Fstudy%2Ftable",
+	"projectname": "my-mini-table",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

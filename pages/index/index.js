@@ -18,5 +18,10 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 1000
+  },
+  getMore: function (){
+    wx.navigateTo({
+      url: '../logs/logs'
+    })
   }
 })
