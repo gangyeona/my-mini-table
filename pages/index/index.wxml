@@ -16,18 +16,17 @@
       </view>
     </view>
     <view class="t-container">
-    <view class="big-box">
-    <view class="avtar">
-      <image src="../../../utils/img/5.jpg" class="img-icon" mode="aspectFit" />
-      <text>图图</text>
+      <view class="big-box">
+        <view class="avtar">
+          <image src="../../../utils/img/5.jpg" class="img-icon" mode="aspectFit" />
+          <text>图图</text>
+        </view>
+        <text class="size-12 block">可视化复杂数据，让一切走向简约</text>
+        <view class="t-container line"></view>
+        <view class="t-container">
+          <button type="default" bindtap="getMore" class="m-t-30"  size="mini" plain="true">
+          <text class="size-12" >+了解更多</text></button>
+        </view>   
+      </view>
     </view>
-     <text class="size-12 block">可视化复杂数据，让一切走向简约</text>
-    <view class="t-container line"></view>
-    <view class="t-container">
-      <button type="default" class="m-t-30"  size="mini" plain="true">
-      <text class="size-12" bindtap="getMore">+了解更多</text></button>
-    </view>   
-    </view>
-    </view>
-
   </view>
