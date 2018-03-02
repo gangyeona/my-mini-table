@@ -22,7 +22,7 @@ Page({
   getMore: function (){
     console.log('sdsdsd');
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../data/data'
     })
   }
 })

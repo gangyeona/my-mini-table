@@ -1,7 +1,7 @@
 <view>
   <swiper indicator-dots="{{indicatorDots}}"
     autoplay="{{autoplay}}" interval="{{interval}}" circular="true"  duration="{{duration}}">
-    <block wx:for="{{imgUrls}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item}}">
       <swiper-item>
         <image src="{{item}}" class="slide-image"/>
       </swiper-item>
@@ -10,7 +10,7 @@
 </view>
 <view class="t-container">
     <view class="flex-box">
-      <view wx:for="{{iconInfo}}" style='text-align:center'>
+      <view wx:for="{{iconInfo}}"  wx:key="{{item}}"  style='text-align:center'>
        <image   class="img-icon"  src="{{item.url}}"></image> 
         <text class="size-12">{{item.text}}</text>
       </view>
