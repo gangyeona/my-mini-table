@@ -11,7 +11,7 @@
 <view class="t-container">
     <view class="flex-box">
       <view wx:for="{{iconInfo}}"  wx:key="{{item}}"  style='text-align:center'>
-       <image   class="img-icon"  src="{{item.url}}"></image> 
+       <image   class="img-icon"  src="{{item.url}}" bindtap="{{item.map}}" ></image> 
         <text class="size-12">{{item.text}}</text>
       </view>
     </view>
